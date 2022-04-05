@@ -3,7 +3,7 @@
 A new Flutter project.
 
 <div align="center">
-    <img src="/screenshots/ss1.png" width="400px" height="750" /> 
+    <img src="Screenshots/ss1.png" width="400px" height="750" /> 
 </div>
 
 ## Getting Started
