@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+<div align="center">
+    <img src="/screenshots/ss1.png" width="400px" height="750" /> 
+</div>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
