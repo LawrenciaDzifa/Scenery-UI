@@ -26,62 +26,63 @@ class _HomeState extends State<Home> {
         child: Scaffold(
           backgroundColor: Colors.black26,
           appBar: AppBar(
-              elevation: 5.0,
-              centerTitle: true,
-              backgroundColor: Colors.black87,
-              title: Center(
-                  child: Text(
-                'Explore',
-                style: TextStyle(color: Colors.white60, fontSize: 21.0),
-              )),
-              leading: IconButton(
-                  icon: Icon(Icons.menu, color: Colors.white60),
-                  onPressed: () {}),
-              actions: [
-                Row(
-                  children: [
-                    IconButton(
-                        icon: Icon(
-                          Icons.notifications_none_outlined,
-                          color: Colors.white60,
-                        ),
-                        onPressed: () {}),
-                    IconButton(
-                        icon: Icon(
-                          Icons.search_outlined,
-                          color: Colors.white60,
-                        ),
-                        onPressed: () {})
-                  ],
-                ),
-              ],
-              bottom: TabBar(
-                indicatorColor: Colors.pink,
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: EdgeInsets.only(left: 20.0, right: 20.0),
-                indicatorWeight: 3.5,
-                tabs: [
-                  Tab(
-                    child: Text(
-                      'DISCOVER',
-                      style: TextStyle(
-                          color: Colors.white60,
-                          fontFamily: 'Montserrat',
-                          fontWeight: FontWeight.w600),
-                    ),
-                  ),
-                  Tab(
-                    child: Text(
-                      'ACTIVITIES',
-                      style: TextStyle(
-                          color: Colors.white60,
-                          fontFamily: 'Montserrat',
-                          fontWeight: FontWeight.w600),
-                    ),
-                  ),
+            elevation: 5.0,
+            centerTitle: true,
+            backgroundColor: Colors.black87,
+            title: Center(
+                child: Text(
+              'Explore',
+              style: TextStyle(color: Colors.white60, fontSize: 21.0),
+            )),
+            leading: IconButton(
+                icon: Icon(Icons.menu, color: Colors.white60),
+                onPressed: () {}),
+            actions: [
+              Row(
+                children: [
+                  IconButton(
+                      icon: Icon(
+                        Icons.notifications_none_outlined,
+                        color: Colors.white60,
+                      ),
+                      onPressed: () {}),
+                  IconButton(
+                      icon: Icon(
+                        Icons.search_outlined,
+                        color: Colors.white60,
+                      ),
+                      onPressed: () {})
                 ],
-                labelColor: Colors.pink,
-              )),
+              ),
+            ],
+            // bottom: TabBar(
+            //   indicatorColor: Colors.pink,
+            //   indicatorSize: TabBarIndicatorSize.tab,
+            //   indicatorPadding: EdgeInsets.only(left: 20.0, right: 20.0),
+            //   indicatorWeight: 3.5,
+            //   tabs: [
+            //     Tab(
+            //       child: Text(
+            //         'DISCOVER',
+            //         style: TextStyle(
+            //             color: Colors.white60,
+            //             fontFamily: 'Montserrat',
+            //             fontWeight: FontWeight.w600),
+            //       ),
+            //     ),
+            //     Tab(
+            //       child: Text(
+            //         'ACTIVITIES',
+            //         style: TextStyle(
+            //             color: Colors.white60,
+            //             fontFamily: 'Montserrat',
+            //             fontWeight: FontWeight.w600),
+            //       ),
+            //     ),
+            //   ],
+            //   labelColor: Colors.pink,
+            // ),
+          ),
           bottomNavigationBar: BottomNavigationBar(
               type: BottomNavigationBarType.fixed,
               iconSize: 30,
@@ -104,10 +105,6 @@ class _HomeState extends State<Home> {
                   icon: Icon(Icons.person),
                   label: 'PROFILE',
                 ),
-                // BottomNavigationBarItem(
-                //   icon: Icon(Icons.person_outlined),
-                //   label: 'Profile',
-                // )
               ]),
           body: Grid(),
         ),
